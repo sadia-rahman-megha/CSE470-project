@@ -119,9 +119,9 @@
 
   @if(session()->has('message'))
 
-<div class="alter alter-success">
+<div class="alert alert-success">
 
-<button type="button" class="close" data-dismiss="alter"> x </button>
+<button type="button" class="close" data-dismiss="alert"> x </button>
 
  {{session()->get('message')}}
 
