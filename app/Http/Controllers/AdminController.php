@@ -124,7 +124,7 @@ class AdminController extends Controller
 
       public function deletedoctor($id)
       {
-        $data=appontment::find($id);
+        $data=doctor::find($id);
         $data->delete();
 
         return redirect()->back();
