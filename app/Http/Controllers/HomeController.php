@@ -111,7 +111,7 @@ class HomeController extends Controller
 
     
 
-      public function cancel_appoint()
+      public function cancel_appoint($id)
       {
         $data = appointment::find($id);
         $data->delete();
