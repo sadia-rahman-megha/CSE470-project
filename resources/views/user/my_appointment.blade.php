@@ -136,7 +136,7 @@
       <td style="padding:10px;  color:white;">{{$appoints->message}}</td>
       <td style="padding:10px;  color:white;">{{$appoints->status}}</td>
 
-      <td><a class="bt btn-danger" onclick="return confirm('Are you sure to delete this')" herf="{{url('cancel_appoint',$appoints->id)}}">Cancel</a></td>
+      <td><a class="bt btn-danger" onclick="return confirm('Are you sure to delete this')" href="{{url('cancel_appoint',$appoints->id)}}">Cancel</a></td>
      </tr>
 
      @endforeach
